@@ -1,0 +1,256 @@
+/* Color Variables */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: montserrat;
+  }
+
+  header {
+      background-color: #1D1E22;
+      display: flex;
+      align-items: center;
+      margin: auto;
+      padding-left: 5vw;
+  }
+  
+/* Nav */
+
+  .logo {
+      flex: 1;
+      font-size: 24px;
+      color: #d4ded4
+  }
+
+  .logo a {
+      color: #d4ded4;
+      text-decoration: none;
+  }
+
+  .nav {
+      flex: 1.5;
+  }
+
+  .nav-links {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      
+  }
+
+  .nav-links a {
+      color: #d4d4d4;
+      text-decoration: none;
+  }
+
+  .nav-links a:hover {
+      text-decoration: underline;
+  }
+
+  /* First Section */
+
+  .greeting {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100vw;
+    height: 80vh;
+    background: linear-gradient(rgba(57,63,77,0.5),rgba(57,63,77,0.5)),url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2104&q=80);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    z-index: 0;
+}
+
+.greeting h3 {
+    font-size: 48px;
+    color: #D4D4DC;
+    z-index: 2;
+}
+
+.greeting h1 {
+    font-size: 96px;
+    color: #FEDA6A;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.greeting p {
+    color: #D4D4DC;
+    font-size: 24px;
+    height: 40px;
+    width: 150px;
+    z-index: 2;
+}
+
+  
+  /* Same font-size and line-height as p element */
+  section ul li, section ol li {
+    font-size: 1em;
+    margin-left: -10px;
+    line-height: 1.8;
+  }
+  
+
+  
+  .center {
+    text-align: center;
+  }
+  
+
+  
+  
+  /* ------------------- Grid -------------------*/
+  
+  .container {
+    max-width: 50em;
+    width:92%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 25px;
+  }
+  
+  .row {
+    clear: both;
+    margin-right: -1%;
+    margin-left:  -1%;
+    
+  }
+  
+  .row:before,
+  .row:after {
+      content: " "; /* 1 */
+      display: table; /* 2 */
+  }
+  
+  .row:after {
+      clear: both;
+  }
+  
+  /**
+   * For IE 6/7 only
+   */
+  .row {
+    *zoom: 1;
+  }
+  
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .grid-5,
+  .grid-6 {
+    float: left;
+    width:100%;
+    padding: 0 1%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media screen and (min-width: 40em) {
+    .grid-1 { width: 16.6666666%; }
+    .grid-2 { width: 33.3333333%; }
+    .grid-3 { width: 50%; }
+    .grid-4 { width: 66.6666666%; }
+    .grid-5 { width: 83.3333333%; }
+    .grid-6 { width: 100%; }
+  
+  }
+  
+  /* -------------------Custom Blocks----------------- */
+
+  
+  /* Experience */
+  .experience [class*="row"] {
+    border-bottom: dotted 1px #ccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  
+  .experience h2 {
+    margin-bottom: 0;
+  }
+  
+  .experience h2, .experience p {
+    text-align: center;
+  }
+  
+  .experience [class*="row"]:last-of-type {
+    border: none;
+  }
+  
+  @media screen and (min-width: 40em) {
+    .experience h2, .experience p {
+      text-align: left;
+    }
+  }
+  
+  
+  /* Education Block */
+  .education {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    margin-bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  @media screen and (min-width: 40em) {
+    .education {
+      width: 70%;
+    }
+  }
+  
+  
+  
+  
+  
+  /* Education Block */
+  .education {
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    margin-bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .grid-2 {
+    padding-top: 25px;
+  }
+
+  .grid-4 {
+    padding-top: 25px;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+footer .quote {
+    text-align: center;
+}
+
+.nav-footer  ul {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-footer {
+  list-style: none;
+}
+
+.nav-footer a {
+  color: #d4d4d4;
+  text-decoration: none;
+}
+
+.nav-footer a:hover {
+  text-decoration: underline;
+}

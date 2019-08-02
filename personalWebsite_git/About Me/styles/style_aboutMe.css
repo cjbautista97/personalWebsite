@@ -1,0 +1,218 @@
+/* Color Variables */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: montserrat;
+  }
+
+  header {
+      background-color: #1D1E22;
+      display: flex;
+      align-items: center;
+      margin: auto;
+      padding-left: 5vw;
+  }
+  
+/* Nav */
+
+  .logo {
+      flex: 1;
+      font-size: 24px;
+      color: #d4ded4
+  }
+
+  .logo a {
+      color: #d4ded4;
+      text-decoration: none;
+  }
+
+  .nav {
+      flex: 1.5;
+  }
+
+  .nav-links {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      
+  }
+
+  .nav-links a {
+      color: #d4d4d4;
+      text-decoration: none;
+  }
+
+  .nav-links a:hover {
+      text-decoration: underline;
+  }
+
+  /* First Section */
+
+  .greeting {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100vw;
+    height: 65vh;
+    background: linear-gradient(rgba(57,63,77,0.5),rgba(57,63,77,0.5)),url(https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    z-index: 0;
+}
+
+.greeting h3 {
+    font-size: 48px;
+    color: #D4D4DC;
+    z-index: 2;
+}
+
+.greeting h1 {
+    font-size: 96px;
+    color: #FEDA6A;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.greeting p {
+    color: #D4D4DC;
+    font-size: 24px;
+    height: 40px;
+    width: 150px;
+    z-index: 2;
+}
+
+.fun-facts h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.fun-facts {
+    padding-top: 55px; 
+    padding-bottom: 55px;
+    background-color: #D4D4DC;
+}
+
+
+.column img {
+  justify-content: center;
+  width: 30%;
+  height: 30%;
+
+}
+
+.understanding {
+  padding-bottom: 50px;
+}
+
+.understanding h2 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 48px;
+  padding-bottom: 5px;
+}
+
+.understanding p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.student {
+  text-align: center;
+  background-color: #D4D4DC;
+  padding-bottom: 50px;
+}
+
+.student h2 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 48px;
+  padding-bottom: 5px;
+}
+
+.student p {
+  font-size: 18px;
+}
+
+.resume-section {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.resume-section h2 {
+  font-size: 48px;
+}
+
+.resume-section .button {
+  color: #D4D4DC;
+  background: #393F4D;
+  border: 2px solid #D4D4DC;
+  border-radius: 6px; 
+}
+
+.resume-section .button:hover {
+ background-color: #D4D4DC;
+ color: #393F4D; 
+}
+
+.resume-section .button a {
+  color: #D4D4DC;
+  text-decoration: none;
+}
+
+.resume-section .button a:hover {
+  color: #393F4D;
+}
+
+.btn p {
+  font-size: 24px;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+}
+
+.resume-section .btn {
+  padding-top: 25px;
+  padding-bottom: 75px;
+  padding-left: 45vw;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer .quote {
+  text-align: center;
+}
+
+.nav-footer  ul {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+
+.nav-footer  ul {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.nav-footer {
+list-style: none;
+}
+
+.nav-footer a {
+color: #d4d4d4;
+text-decoration: none;
+}
+
+.nav-footer a:hover {
+text-decoration: underline;
+}

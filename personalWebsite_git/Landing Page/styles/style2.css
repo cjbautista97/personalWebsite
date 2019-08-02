@@ -1,0 +1,315 @@
+/* Color Variables */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: montserrat;
+  }
+
+  header {
+      background-color: #1D1E22;
+      display: flex;
+      align-items: center;
+      margin: auto;
+      padding-left: 5vw;
+  }
+  
+/* Nav */
+
+  .logo {
+      flex: 1;
+      font-size: 24px;
+      color: #d4ded4
+  }
+
+  .logo a {
+      color: #d4ded4;
+      text-decoration: none;
+  }
+
+  .nav {
+      flex: 1.5;
+  }
+
+  .nav-links {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      
+  }
+
+  .nav-links a {
+      color: #d4d4d4;
+      text-decoration: none;
+  }
+
+  .nav-links a:hover {
+      text-decoration: underline;
+  }
+
+/* First Section */
+
+.content {
+    padding-bottom: 15px;
+}
+
+  .greeting {
+      display: table-cell;
+      vertical-align: middle;
+      width: 100vw;
+      height: 93vh;
+      background: linear-gradient(rgba(57,63,77,0.5),rgba(57,63,77,0.5)),url(https://images.unsplash.com/photo-1518896683239-fbc859b7d700?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      z-index: 0;
+  }
+
+  .greeting h3 {
+      font-size: 48px;
+      color: #D4D4DC;
+      z-index: 2;
+  }
+
+  .greeting h1 {
+      font-size: 96px;
+      color: #FEDA6A;
+      text-transform: uppercase;
+      z-index: 2;
+  }
+
+  .greeting p {
+      color: #D4D4DC;
+      font-size: 24px;
+      height: 40px;
+      width: 150px;
+      z-index: 2;
+  }
+
+/* Button Styling */
+  .greeting .button a {
+      color: #D4D4DC;
+      text-decoration: none;
+  }
+
+  .greeting .button a:hover {
+      color: #393F4D;
+  }
+
+  .greeting .button {
+      color: #D4D4DC;
+      background: #393F4D;
+      border: 2px solid #393F4D;
+      border-radius: 6px; 
+  }
+
+  .greeting .button:hover {
+     background-color: #D4D4DC;
+     color: #393F4D; 
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section 2 */
+
+.examples-text h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.examples-text {
+    padding-top: 50px; 
+}
+
+.examples {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-text {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Button Styling */
+.resume .button {
+    color: #D4D4DC;
+    background: #393F4D;
+    border: 2px solid #D4D4DC;
+    border-radius: 6px; 
+}
+
+.resume .button:hover {
+   background-color: #D4D4DC;
+   color: #393F4D; 
+}
+
+.resume .button a {
+    color: #D4D4DC;
+    text-decoration: none;
+}
+
+.resume .button a:hover {
+    color: #393F4D;
+}
+
+.btn p {
+    font-size: 24px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+}
+
+.resume .btn {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+/* Section 3 */
+
+.contact-home {
+    background-color: #D4D4DC;
+    padding-top: 75px;
+}
+
+.contact-home h3 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.contact-home h1 {
+    font-size: 56px;
+    text-align: center;
+    color: #FEDA6A;
+}
+
+/* Button Styling */
+.contact-home .button {
+    color: #D4D4DC;
+    background: #393F4D;
+    border: 2px solid #D4D4DC;
+    border-radius: 6px; 
+}
+
+.contact-home .button:hover {
+   background-color: #D4D4DC;
+   color: #393F4D; 
+}
+
+.contact-home .button a {
+    color: #D4D4DC;
+    text-decoration: none;
+}
+
+.contact-home .button a:hover {
+    color: #393F4D;
+}
+
+.btn p {
+    font-size: 24px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+}
+
+.btn {
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+
+.photography {
+    padding-top: 50px;
+
+}
+
+.photography h3 {
+        font-size: 48px;
+        text-align: center;
+        padding-bottom: 50px;
+}
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+footer .quote {
+    text-align: center;
+}
+
+.nav-footer  ul {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+.nav-footer  ul {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-footer {
+  list-style: none;
+}
+
+.nav-footer a {
+  color: #d4d4d4;
+  text-decoration: none;
+}
+
+.nav-footer a:hover {
+  text-decoration: underline;
+}
